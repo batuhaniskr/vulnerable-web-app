@@ -22,4 +22,11 @@ public class HelloController {
 
         return "hello";
     }
+
+    @GetMapping("/redirect")
+    public String exit(Model model) {
+        model.addAttribute("name", "redirected new page...");
+
+        return "hello";
+    }
 }
