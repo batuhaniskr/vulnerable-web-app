@@ -28,6 +28,12 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+Test Userı olarak aşağıdaki userı kullanabiliriz
+bestsuperadmin : bestjNNp1kYvs12taynpassWKkk3eRuTyoV5Oyever
+
+    */
+
 @Service
 public class XmlService {
 
